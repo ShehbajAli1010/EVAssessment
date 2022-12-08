@@ -4,11 +4,12 @@ import {
   GET_USER_SUCCESS,
   GET_USER_FAILED,
 } from "../constants/userConstant";
+import { url } from "../../api/Apiurl";
 
 export const userAction = () => async (dispatch) => {
   try {
     dispatch({ type: GET_USER_REQUEST });
-    const { data } = await axios.get("https://randomuser.me/api");
+    const { data } = await axios.get(url);
     dispatch({ type: GET_USER_SUCCESS, payload: data.results });
   } catch (error) {
     dispatch({
