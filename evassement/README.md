@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### -------------------------------------------------------------------------------------------- ###
+
+### Assesment Details ###
+
+To run the code in Local env. => Run command : cd evassement -> npm i -> npm start
+
+### Code standards & module details ###
+
+CSMS(Centralize State management system used to manage state) Redux
+
+Redux all files[actions(userAction.js),constants(userConstant.js),reducers(userReducer)] available in Redux Folder and Store file(store.js) in src.
+
+Middleware used : Redux-Thunk.
+
+Redux store composed with Compose with Redux-Dev-tools.
+
+Styled component used from styling of Application.
+
+For Props Type checking Props-Type library is used.
+
+For making Http request Axios is used.
+
+Link to Open the Deployed Assessment : https://zingy-youtiao-39b1b4.netlify.app/
