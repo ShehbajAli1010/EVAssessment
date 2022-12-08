@@ -53,6 +53,7 @@ export const Spinner = styled.div`
   width: 42px;
   height: 42px;
   border-radius: 50%;
+  margin-bottom : 48px;
 `;
 
 export const Table = styled.table`
